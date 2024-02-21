@@ -1,20 +1,24 @@
-.privacymain{
+.privacymain {
     width: 80%;
 }
 
-.decodlogo{
-    width: 15%;
+.decodlogo {
+    height: 150px;
+    width: 200px;
     padding-top: 2rem;
     display: block;
-  margin-left: auto;
-  margin-right: auto;
-  /* width: 50%; */
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.container{
-    padding: 2rem;
+.container {
+    /* padding: 2rem; */
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+}
+
+.paragraph{
+    margin-left: 23px;
 }
