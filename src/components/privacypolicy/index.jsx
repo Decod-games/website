@@ -7,7 +7,7 @@ const PrivacyPolicy = () => {
     const [termsOfService, setTermsOfService] = useState({});
 
     useEffect(() => {
-        fetch('http://ec2-13-233-127-36.ap-south-1.compute.amazonaws.com:8000/policy')
+        fetch('https://flight2987.web.app/policy.json')
             .then(response => response.json())
             .then(data => {
                 console.log(data);
